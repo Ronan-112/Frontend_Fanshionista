@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# No client-side routing (react-router) is used in this app — it's a
+# single-page component with internal state, not multiple routes — so no
+# SPA fallback redirect is needed here.
